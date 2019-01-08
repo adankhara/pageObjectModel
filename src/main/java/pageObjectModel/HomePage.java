@@ -24,5 +24,10 @@ public class HomePage extends Utils
         clickElement(By.linkText("Shopping cart"));
     }
 
+    public void clickOnLogIn()
+    {
+        clickElement(By.linkText("Log in"));
+    }
+
 
 }

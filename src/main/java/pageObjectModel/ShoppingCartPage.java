@@ -2,13 +2,13 @@ package pageObjectModel;
 
 import org.openqa.selenium.By;
 
-public class ShoppinCartPage extends Utils
+public class ShoppingCartPage extends Utils
 {
     HomePage homePage = new HomePage();
     public void clickOnCheckOut()
     {
 //   1. To click on shopping cart
-        homePage.clickOnShoppingCart();
+//        homePage.clickOnShoppingCart();
 //   2. To click on check out button
         clickElement(By.id("checkout"));
     }

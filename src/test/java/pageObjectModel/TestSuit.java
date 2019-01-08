@@ -8,7 +8,7 @@ public class TestSuit extends BaseTest
     RegistrationPage registrationPage = new RegistrationPage();
     ProductPage productPage = new ProductPage();
     HomePage homePage = new HomePage();
-    ShoppinCartPage shoppinCartPage = new ShoppinCartPage();
+    ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
     CheckOutPage checkOutPage = new CheckOutPage();
 
 @Test
@@ -47,7 +47,7 @@ public class TestSuit extends BaseTest
         homePage.clickOnShoppingCart();
         waitForElementToBeClickable(By.xpath("//*[@id=\"termsofservice\"]"),20);
         clickElement(By.xpath("//*[@id=\"termsofservice\"]"));
-        shoppinCartPage.clickOnCheckOut();
+        shoppingCartPage.clickOnCheckOut();
         checkOutPage.toPurchase();
     }
 
@@ -56,6 +56,6 @@ public class TestSuit extends BaseTest
     {
         productPage.addToCart();
         homePage.clickOnShoppingCart();
-        shoppinCartPage.clickOnCheckOut();
+        shoppingCartPage.clickOnCheckOut();
     }
 }

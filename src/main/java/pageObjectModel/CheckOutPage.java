@@ -4,13 +4,13 @@ import org.openqa.selenium.By;
 
 public class CheckOutPage extends Utils
 {
-    ShoppinCartPage shoppinCartPage = new ShoppinCartPage();
+    ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
    public void toPurchase()
    {
 //  1. To accept terms and conditions
-       shoppinCartPage.acceptTermsAndConditions();
+       shoppingCartPage.acceptTermsAndConditions();
 //  2. Click on check out
-       shoppinCartPage.clickOnCheckOut();
+       shoppingCartPage.clickOnCheckOut();
 //  3. Click on continue.
        clickElement(By.xpath("//input[@onclick='Billing.save()']"));
 //  4. Select shipping speed as "Next day Air".
