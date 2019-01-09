@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8633b89f-ebe8-4de7-8eed-4e42b9caa48d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/JewelryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/Results.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectModel/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,14 +35,14 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="java" value="4048" />
-          <entry key="txt" value="23" />
+          <entry key="txt" value="29" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="4048" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="PLAIN_TEXT" value="30" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -128,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
+            <state relative-caret-position="554">
+              <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#userShouldBeRegisterSuccessfully#0;class#TestSuit#0" />
@@ -138,6 +132,8 @@
                 <element signature="method#userShouldBeAbleToSortByPriceHighToLow#0;class#TestSuit#0" />
                 <element signature="method#registeredUserShouldAbleToPurchaseAProduct#0;class#TestSuit#0" />
                 <element signature="method#userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions#0;class#TestSuit#0" />
+                <element signature="method#userShouldBeAbleToChangeCurrencyOnJewelryPage#0;class#TestSuit#0" />
+                <element signature="method#userShouldBeAbleYoChangeCurrencyToUSDollarOnJewelryPage#0;class#TestSuit#0" />
               </folding>
             </state>
           </provider>
@@ -204,7 +200,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="1038" />
     <option name="height" value="735" />
@@ -277,7 +273,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547056541800" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547059830621" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -431,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547034574731</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fourth commit">
+      <created>1547056619973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547056619973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -479,7 +482,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42786884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42786884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,7 +536,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+    <MESSAGE value="fourth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -642,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
+        <state relative-caret-position="554">
+          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#userShouldBeRegisterSuccessfully#0;class#TestSuit#0" />
@@ -652,6 +656,8 @@
             <element signature="method#userShouldBeAbleToSortByPriceHighToLow#0;class#TestSuit#0" />
             <element signature="method#registeredUserShouldAbleToPurchaseAProduct#0;class#TestSuit#0" />
             <element signature="method#userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions#0;class#TestSuit#0" />
+            <element signature="method#userShouldBeAbleToChangeCurrencyOnJewelryPage#0;class#TestSuit#0" />
+            <element signature="method#userShouldBeAbleYoChangeCurrencyToUSDollarOnJewelryPage#0;class#TestSuit#0" />
           </folding>
         </state>
       </provider>
