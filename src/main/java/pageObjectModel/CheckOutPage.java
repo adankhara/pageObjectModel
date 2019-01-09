@@ -8,9 +8,9 @@ public class CheckOutPage extends Utils
    public void toPurchase()
    {
 //  1. To accept terms and conditions
-       shoppingCartPage.acceptTermsAndConditions();
+//       shoppingCartPage.acceptTermsAndConditions();
 //  2. Click on check out
-       shoppingCartPage.clickOnCheckOut();
+//       shoppingCartPage.clickOnCheckOut();
 //  3. Click on continue.
        clickElement(By.xpath("//input[@onclick='Billing.save()']"));
 //  4. Select shipping speed as "Next day Air".

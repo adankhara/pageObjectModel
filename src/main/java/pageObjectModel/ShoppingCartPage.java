@@ -18,6 +18,6 @@ public class ShoppingCartPage extends Utils
 //   1. To click on shopping cart
 //        homePage.clickOnShoppingCart();
 //   2. To accept terms and conditions
-        clickElement(By.xpath("//*[@id=\"termsofservice\"]"));
+        clickElement(By.id("termsofservice"));
     }
 }

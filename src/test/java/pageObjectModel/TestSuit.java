@@ -1,7 +1,10 @@
 package pageObjectModel;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class TestSuit extends BaseTest
 {
@@ -10,6 +13,7 @@ public class TestSuit extends BaseTest
     HomePage homePage = new HomePage();
     ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
     CheckOutPage checkOutPage = new CheckOutPage();
+    LogInPage logInPage = new LogInPage();
 
 @Test
     public void userShouldBeRegisterSuccessfully()
@@ -40,13 +44,10 @@ public class TestSuit extends BaseTest
 @Test
     public void registeredUserShouldAbleToPurchaseAProduct()
     {
-        homePage.clickOnRegister();
-        registrationPage.toRegister();
-        clickElement(By.xpath("//input[@name='register-continue']"));
+        logInPage.toLogIn();
         productPage.addToCart();
         homePage.clickOnShoppingCart();
-        waitForElementToBeClickable(By.xpath("//*[@id=\"termsofservice\"]"),20);
-        clickElement(By.xpath("//*[@id=\"termsofservice\"]"));
+        shoppingCartPage.acceptTermsAndConditions();
         shoppingCartPage.clickOnCheckOut();
         checkOutPage.toPurchase();
     }
@@ -57,5 +58,15 @@ public class TestSuit extends BaseTest
         productPage.addToCart();
         homePage.clickOnShoppingCart();
         shoppingCartPage.clickOnCheckOut();
+    }
+
+@Test
+    public void verifyAddToCartButtonIsPresentForAllProductsOnHomepage()
+    {
+        List<WebElement> allProducts = driver.findElements(By.xpath("/html/body/div[6]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div[2]/div[3]/div[2]/input[1]"));
+        for (WebElement text:allProducts)
+        {
+            System.out.println(text.getAttribute("value"));
+        }
     }
 }
