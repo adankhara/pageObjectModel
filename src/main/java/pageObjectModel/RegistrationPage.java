@@ -32,6 +32,7 @@ public class RegistrationPage extends Utils
         enterText(By.id("ConfirmPassword"),"rajesh123");
 //   11.Click on Register button.
         clickElement(By.id("register-button"));
+        //String actualRegisterMessage = getText(By.xpath("//div[@class='result']"));
 //   12.Click on continue button.
 //      clickElement(By.linkText("Log out"));
     }

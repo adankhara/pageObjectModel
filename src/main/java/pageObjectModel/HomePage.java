@@ -29,5 +29,18 @@ public class HomePage extends Utils
         clickElement(By.linkText("Log in"));
     }
 
+    public void clickOnJewelry()
+    {
+        clickElement(By.linkText("Jewelry"));
+    }
 
+    public void changeCurrencyToDollar()
+    {
+        selectByVisibleText(By.id("customerCurrency"),"US Dollar");
+    }
+
+    public void changeCurrencyToEuro()
+    {
+        selectByVisibleText(By.id("customerCurrency"),"Euro");
+    }
 }
