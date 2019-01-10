@@ -114,4 +114,19 @@ public class Utils extends BasePage
         clickElement(by2);
     }
 
+    public static void toFindNumersOfElements(By  by)
+    {
+         driver.findElements(by).size() ;
+    }
+
+    public static String toGetTextOfElements(By by, String text1)
+    {
+        List<WebElement> allProducts = driver.findElements(by);
+        for (WebElement text:allProducts)
+        {
+            text.getAttribute(text1);
+        }
+        return text1;
+    }
+
 }

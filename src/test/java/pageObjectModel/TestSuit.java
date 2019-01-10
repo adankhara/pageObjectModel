@@ -80,11 +80,14 @@ public class TestSuit extends BaseTest
 @Test
     public void verifyAddToCartButtonIsPresentForAllProductsOnHomepage()
     {
-        List<WebElement> allProducts = driver.findElements(By.xpath("/html/body/div[6]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div[2]/div[3]/div[2]/input[1]"));
-        for (WebElement text:allProducts)
-        {
-            System.out.println(text.getAttribute("value"));
-        }
+//        List<WebElement> allProducts = driver.findElements(By.xpath("/html/body/div[6]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div[2]/div[3]/div[2]/input[1]"));
+//        //toFindList(By.xpath("/html/body/div[6]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div[2]/div[3]/div[2]/input[1]"));
+//        for (WebElement text:allProducts)
+//        {
+//            System.out.println(text.getAttribute("value"));
+//        }
+//        toGetTextOfElements(By.xpath("\"/html/body/div[6]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div[2]/div[3]/div[2]/input[1]\""),"value");
+//        System.out.println("Value");
     }
 
 @Test

@@ -17,7 +17,7 @@ public class Results
         {
             TakesScreenshot takesScreenshot =(TakesScreenshot)driver;
             File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(source,new File("C:\\AshaTesting\\screenshot\\"+screenshot+".png"));
+            FileUtils.copyFile(source,new File("src\\screenshots\\"+screenshot+".png"));
             System.out.println("Screenshot taken");
         }
         catch (Exception e)
