@@ -15,7 +15,7 @@ public class TestSuit extends BaseTest
     ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
     CheckOutPage checkOutPage = new CheckOutPage();
     LogInPage logInPage = new LogInPage();
-
+//Adding CrossBrowser functionality
     private final static String expectedRegisterMessage = "Your registration completed";
     private final static String expectedEmailSentMessage = "Your message has been sent.";
     private final static String expectedEmailNotSentMessage = "Only registered customers can use email a friend feature";
