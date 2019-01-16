@@ -5,19 +5,22 @@ import org.openqa.selenium.By;
 public class ShoppingCartPage extends Utils
 {
     HomePage homePage = new HomePage();
+
+    protected By checkOutButton = By.id("checkout");
+    protected By termsOfService = By.xpath("//input[@id='termsofservice']");
+
+
     public void clickOnCheckOut()
     {
-//   1. To click on shopping cart
-//        homePage.clickOnShoppingCart();
-//   2. To click on check out button
-        clickElement(By.id("checkout"));
+
+//   To click on check out button
+        clickElement(checkOutButton);
     }
 
     public void acceptTermsAndConditions()
     {
-//   1. To click on shopping cart
-//        homePage.clickOnShoppingCart();
-//   2. To accept terms and conditions
-        clickElement(By.id("termsofservice"));
+
+//   To accept terms and conditions
+        clickElement(termsOfService);
     }
 }
