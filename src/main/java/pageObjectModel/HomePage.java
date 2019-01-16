@@ -81,7 +81,7 @@ public class HomePage extends Utils
         return getTextOfList(allProducts);
     }
 
-    private List<String> getTextOfList(List<WebElement> allProducts) {
+    public List<String> getTextOfList(List<WebElement> allProducts) {
         List<String> prices = new ArrayList<String>();
 
         for (WebElement text : allProducts) {

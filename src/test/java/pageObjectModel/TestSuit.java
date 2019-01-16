@@ -54,6 +54,8 @@ public class TestSuit extends BaseTest
     {
         homePage.clickOnNotbooks();
         productPage.productSortByHighToLow();
+        boolean isHighToLow  = productPage.isPriceHighToLow();
+        Assert.assertTrue("Price expected high to low but Not", isHighToLow);
     }
 
 @Test

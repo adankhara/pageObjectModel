@@ -1,10 +1,14 @@
 package pageObjectModel;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class ProductPage extends Utils
 {
     LoadProp loadProp = new LoadProp();
+    HomePage homePage = new HomePage();
 
     protected  By computers = By.linkText("Computers");
     protected  By deskTops = By.linkText("Desktops");
@@ -17,6 +21,7 @@ public class ProductPage extends Utils
     protected By sortBy = By.id("products-orderby");
     protected By hdd = By.id("product_attribute_3_6");
     protected By addToCartButton = By.id("add-to-cart-button-1");
+    protected By noteBookPrice = By.xpath("//span[@class='price actual-price']");
 
     String sortByPriceHighToLow = loadProp.getProperty("sortbypricehightolow");
     String friendEmail = loadProp.getProperty("friendemail");
@@ -50,6 +55,24 @@ public class ProductPage extends Utils
     public void productSortByHighToLow()
     {
         selectByVisibleText(sortBy,sortByPriceHighToLow);
+    }
+
+    public boolean isPriceHighToLow()
+    {
+        List<WebElement> allProducts = driver.findElements(noteBookPrice);
+
+        float lastPrice = 0f;
+        int count = 0;
+        for (String priceText : homePage.getTextOfList(allProducts))
+        {
+            float newPrice = Float.valueOf(priceText.replaceAll("[$£,Ђ]",  ""));
+            if (newPrice > lastPrice && count++> 0)
+            {
+                return false;
+            }
+            lastPrice = newPrice;
+        }
+        return true;
     }
 
     public void addFirstComputerProductToCart()
