@@ -15,7 +15,8 @@ public class TestSuit extends BaseTest
     ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
     CheckOutPage checkOutPage = new CheckOutPage();
     LogInPage logInPage = new LogInPage();
-//Adding CrossBrowser functionality
+
+
     private final static String expectedRegisterMessage = "Your registration completed";
     private final static String expectedEmailSentMessage = "Your message has been sent.";
     private final static String expectedEmailNotSentMessage = "Only registered customers can use email a friend feature";
@@ -34,6 +35,7 @@ public class TestSuit extends BaseTest
    public void registeredUserShouldBeAbleToSendEmailToFriend()
    {
        registrationPage.toRegister();
+       //browserScreenshot();
        productPage.toSendEmailWithProduct();
        String actualEmailSentMessage = getText(By.xpath("//div[@class='result']"));
        Assert.assertEquals("Test case scenario registered user should be able to send an email to friend is failed",expectedEmailSentMessage,actualEmailSentMessage);
@@ -58,7 +60,7 @@ public class TestSuit extends BaseTest
     public void registeredUserShouldAbleToPurchaseAProduct()
     {
         logInPage.toLogIn();
-        productPage.addToCart();
+        productPage.addFirstComputerProductToCart();
         homePage.clickOnShoppingCart();
         shoppingCartPage.acceptTermsAndConditions();
         shoppingCartPage.clickOnCheckOut();
@@ -70,37 +72,49 @@ public class TestSuit extends BaseTest
 @Test
     public void userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions()
     {
-        productPage.addToCart();
+        productPage.addFirstComputerProductToCart();
         homePage.clickOnShoppingCart();
         shoppingCartPage.clickOnCheckOut();
         String actualTermsAndConditionsMessage = getText(By.xpath("//div[@id='terms-of-service-warning-box']/p"));
-        Assert.assertEquals("Test case scenario user should not be able to procced without agreeing to Terms and conditions is failed",expectedTermsAndConditionsMessage,expectedTermsAndConditionsMessage);
+        Assert.assertEquals("Test case scenario user should not be able to procced without agreeing to Terms and conditions is failed",expectedTermsAndConditionsMessage,actualTermsAndConditionsMessage);
     }
 
 @Test
     public void verifyAddToCartButtonIsPresentForAllProductsOnHomepage()
     {
-//        List<WebElement> allProducts = driver.findElements(By.xpath("/html/body/div[6]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div[2]/div[3]/div[2]/input[1]"));
-//        //toFindList(By.xpath("/html/body/div[6]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div[2]/div[3]/div[2]/input[1]"));
-//        for (WebElement text:allProducts)
-//        {
-//            System.out.println(text.getAttribute("value"));
-//        }
-//        toGetTextOfElements(By.xpath("\"/html/body/div[6]/div[3]/div/div/div/div/div[4]/div[2]/div/div/div[2]/div[3]/div[2]/input[1]\""),"value");
-//        System.out.println("Value");
+        //homePage.findAddToCartButton();
+        List<String> priceTexts = homePage.findAddToCartButton();
+        for (String priceText: priceTexts)
+        {
+            Assert.assertTrue(priceText.contains("Add to cart"));
+        }
+        //browserScreenshot();
     }
-
 @Test
     public void userShouldBeAbleToChangeCurrencyToEuroOnJewelryPage()
     {
         homePage.clickOnJewelry();
-        homePage.changeCurrencyToEuro();
+        //homePage.changeCurrencyToEuro();
+
+        List<String> priceTexts = homePage.changeCurrencyToEuro();
+        for (String priceText: priceTexts)
+        {
+            Assert.assertTrue(priceText.contains("Ђ"));
+        }
+        //Utils.browserScreenshot();
     }
 
 @Test
     public  void userShouldBeAbleYoChangeCurrencyToUSDollarOnJewelryPage()
     {
         homePage.clickOnJewelry();
-        homePage.changeCurrencyToDollar();
+        //homePage.changeCurrencyToDollar();
+        //browserScreenshot();
+
+        List<String> priceTexts = homePage.changeCurrencyToDollar();
+        for (String priceText: priceTexts)
+        {
+            Assert.assertTrue(priceText.contains("$"));
+        }
     }
 }

@@ -22,7 +22,7 @@ public class Results
         }
         catch (Exception e)
         {
-            System.out.println("Exception while taking screenshot" + e.getMessage());
+            System.out.println("Exception while taking screenshot" +" " + e.getMessage());
         }
     }
 }
