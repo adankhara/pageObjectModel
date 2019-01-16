@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8633b89f-ebe8-4de7-8eed-4e42b9caa48d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/BrowserSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/LoadProp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/Features/homepage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/Properties/TestDataConfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/CheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/CheckOutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/ShoppingCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screenshots/registeredUserShouldAbleToPurchaseAProduct.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/screenshots/registeredUserShouldAbleToPurchaseAProduct.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectModel/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectModel/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/Results.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObjectModel/CheckOutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjectModel/CheckOutPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObjectModel/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjectModel/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObjectModel/LogInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjectModel/LogInPage.class" afterDir="false" />
@@ -75,7 +59,7 @@
           <entry key="feature" value="366" />
           <entry key="java" value="9937" />
           <entry key="properties" value="389" />
-          <entry key="txt" value="29" />
+          <entry key="txt" value="59" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -83,7 +67,7 @@
         <counts>
           <entry key="Cucumber" value="366" />
           <entry key="JAVA" value="9937" />
-          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="PLAIN_TEXT" value="70" />
           <entry key="Properties" value="389" />
           <entry key="XML" value="1" />
         </counts>
@@ -95,7 +79,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="1237">
               <caret line="78" column="200" selection-start-line="78" selection-start-column="200" selection-end-line="78" selection-end-column="200" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -249,28 +233,7 @@
               <item name="pageObjectModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pageObjectModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pageObjectModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pageObjectModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,7 +244,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547660121565" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547660156209" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -446,16 +409,17 @@
       <option name="project" value="LOCAL" />
       <updated>1547056619973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first commit on crossbrowser baranch">
+      <created>1547660205261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547660205261</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSuit_verifyAddToCartButtonIsPresentForAllProductsOnHomepage - 2019.01.16 at 16h 41m 23s.xml">
-      <configuration name="TestSuit.verifyAddToCartButtonIsPresentForAllProductsOnHomepage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSuit_verifyAddToCartButtonIsPresentForAllProductsOnHomepage - 2019.01.16 at 16h 46m 50s.xml">
-      <configuration name="TestSuit.verifyAddToCartButtonIsPresentForAllProductsOnHomepage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestSuit - 2019.01.16 at 16h 50m 17s.xml">
       <configuration name="TestSuit" configurationId="TestNG" />
     </history-entry>
@@ -480,12 +444,17 @@
     <history-entry file="TestSuit - 2019.01.16 at 17h 29m 28s.xml">
       <configuration name="TestSuit" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestSuit_userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions - 2019.01.16 at 17h 33m 02s.xml">
+      <configuration name="TestSuit.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSuit - 2019.01.16 at 17h 35m 28s.xml">
+      <configuration name="TestSuit" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,7 +463,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15245901" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14754099" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30983606" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -521,7 +490,8 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
     <MESSAGE value="fourth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fourth commit" />
+    <MESSAGE value="first commit on crossbrowser baranch" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit on crossbrowser baranch" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -795,7 +765,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="1237">
           <caret line="78" column="200" selection-start-line="78" selection-start-column="200" selection-end-line="78" selection-end-column="200" />
           <folding>
             <element signature="imports" expanded="true" />
