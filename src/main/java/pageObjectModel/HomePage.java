@@ -52,8 +52,9 @@ public class HomePage extends Utils
 
     public List<String> findAddToCartButton()
     {
+        toScroll(addToCartText);
 
-//   To get text from all item on home page
+        //   To get text from all item on home page
         List<WebElement> allProducts = driver.findElements(addToCartText);
 
         List<String> buttons = new ArrayList<String>();

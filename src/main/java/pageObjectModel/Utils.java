@@ -5,6 +5,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 import javax.imageio.ImageIO;
 import java.io.File;
@@ -33,10 +36,10 @@ public class Utils extends BasePage
         driver.findElement(by).sendKeys(text);
     }
     // To scroll to view element
-    public static void toScroll(WebElement element)
+    public static void toScroll(By by)
     {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView();",element);
+        js.executeScript("arguments[0].scrollIntoView();",driver.findElement(by));
     }
     // To scroll to view element and click
     public static void toScrollAndClick(By by)
@@ -239,12 +242,18 @@ public class Utils extends BasePage
         }
     }
 //To take screenshot of fullpage
-//    public static void fullPageScreenShot()
-//    {
-//        Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
-//        ImageIO.write(screenshot.getImage(),"PNG",new File(“C:\\fullpagescreenshot.png"));
-//    }
-
+    public static void fullPageScreenShot()
+    {
+        Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
+          try
+          {
+               ImageIO.write(screenshot.getImage(), "PNG", new File("src\\screenshots\\" + "fullpagescreenshot" + ".png"));
+          }
+          catch (IOException e)
+          {
+              e.printStackTrace();
+          }
+    }
     public static void toFindNumersOfElements(By  by)
     {
          driver.findElements(by).size() ;

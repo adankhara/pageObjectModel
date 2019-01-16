@@ -82,13 +82,15 @@ public class TestSuit extends BaseTest
 @Test
     public void verifyAddToCartButtonIsPresentForAllProductsOnHomepage()
     {
+
         //homePage.findAddToCartButton();
         List<String> priceTexts = homePage.findAddToCartButton();
         for (String priceText: priceTexts)
         {
             Assert.assertTrue(priceText.contains("Add to cart"));
         }
-        //browserScreenshot();
+        browserScreenshot();
+
     }
 @Test
     public void userShouldBeAbleToChangeCurrencyToEuroOnJewelryPage()
