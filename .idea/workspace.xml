@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8633b89f-ebe8-4de7-8eed-4e42b9caa48d" name="Default Changelist" comment="price high to low done">
+    <list default="true" id="8633b89f-ebe8-4de7-8eed-4e42b9caa48d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/AshaTesting/screenshot/userShouldBeRegisterSuccessfully.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectModel/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectModel/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/Results.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObjectModel/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjectModel/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjectModel/ProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjectModel/ProductPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObjectModel/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjectModel/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjectModel/Results.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjectModel/Results.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjectModel/TestSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjectModel/TestSuit.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,96 +25,58 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="feature" value="1" />
-          <entry key="java" value="67" />
-          <entry key="png" value="19" />
-          <entry key="properties" value="6" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="15" />
+          <entry key="png" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="Cucumber" value="1" />
-          <entry key="Image" value="19" />
-          <entry key="JAVA" value="67" />
-          <entry key="Properties" value="6" />
-          <entry key="XML" value="1" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="11" />
-          <entry key="feature" value="366" />
-          <entry key="java" value="10541" />
-          <entry key="properties" value="397" />
-          <entry key="txt" value="121" />
-          <entry key="xml" value="2" />
+          <entry key="dummy" value="1" />
+          <entry key="java" value="4223" />
+          <entry key="txt" value="29" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="366" />
-          <entry key="JAVA" value="10541" />
-          <entry key="PLAIN_TEXT" value="132" />
-          <entry key="Properties" value="397" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="4223" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/LogInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="781">
-              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#userShouldBeRegisterSuccessfully#0;class#TestSuit#0" />
-                <element signature="method#registeredUserShouldBeAbleToSendEmailToFriend#0;class#TestSuit#0" />
-                <element signature="method#unregisteredUserShouldNotBeAbleToSendEmailToFriend#0;class#TestSuit#0" />
-                <element signature="method#userShouldBeAbleToSortByPriceHighToLow#0;class#TestSuit#0" />
-                <element signature="method#registeredUserShouldAbleToPurchaseAProduct#0;class#TestSuit#0" />
-                <element signature="method#userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions#0;class#TestSuit#0" />
-                <element signature="method#verifyAddToCartButtonIsPresentForAllProductsOnHomepage#0;class#TestSuit#0" />
-                <element signature="method#userShouldBeAbleToChangeCurrencyToEuroOnJewelryPage#0;class#TestSuit#0" />
-                <element signature="method#userShouldBeAbleYoChangeCurrencyToUSDollarOnJewelryPage#0;class#TestSuit#0" />
-              </folding>
+            <state relative-caret-position="275">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/Results.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/RegistrationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/CheckOutPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="850">
+              <caret line="34" column="83" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -118,12 +84,90 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/ProductPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+            <state relative-caret-position="175">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="method#toSendEmailWithProduct#0;class#ProductPage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/ShoppingCartPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/CheckOutPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#toSendEmailWithProduct#0;class#ProductPage#0" />
-                <element signature="method#addFirstComputerProductToCart#0;class#ProductPage#0" />
+                <element signature="method#userShouldBeRegisterSuccessfully#0;class#TestSuit#0" />
+                <element signature="method#registeredUserShouldBeAbleToSendEmailToFriend#0;class#TestSuit#0" />
+                <element signature="method#unregisteredUserShouldNotBeAbleToSendEmailToFriend#0;class#TestSuit#0" />
+                <element signature="method#userShouldBeAbleToSortByPriceHighToLow#0;class#TestSuit#0" />
+                <element signature="method#userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions#0;class#TestSuit#0" />
+                <element signature="method#verifyAddToCartButtonIsPresentForAllProductsOnHomepage#0;class#TestSuit#0" />
+                <element signature="method#userShouldBeAbleYoChangeCurrencyToUSDollarOnJewelryPage#0;class#TestSuit#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1775">
+              <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#clearAndEnter#0;class#Utils#0" />
+                <element signature="method#selectByVisibleText#0;class#Utils#0" />
+                <element signature="method#getText#0;class#Utils#0" />
+                <element signature="method#getTextFromBox#0;class#Utils#0" />
+                <element signature="method#timeStamp#0;class#Utils#0" />
+                <element signature="method#waitAndClick#0;class#Utils#0" />
+                <element signature="method#waitForElementToBeInvisible#0;class#Utils#0" />
+                <element signature="method#waitForElementToBeVisible#0;class#Utils#0" />
+                <element signature="method#waitForElementToBeClickable#0;class#Utils#0" />
+                <element signature="method#hoverAndClick#0;class#Utils#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/JewelryPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/Results.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,15 +182,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>List\&lt;WebElement\&gt; allProducts \= driver\.findElements\(jewelryPrice\)\;\n        List\&lt;String\&gt; prices \= new ArrayList\&lt;String\&gt;\(\)\;\n\n        for \(WebElement text\:allProducts\)\n        \{\n            prices\.add\(text\.getText\(\)\)\;\n        \}\n        return prices\;</find>
-      <find>replaceall</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -154,24 +189,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/NoteBooksPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/ShoppinCartPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/JewelryPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageObjectModel/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/Resources/Features/homepage.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/pageObjectModel/Results.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/LogInPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/LoadProp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/RegistrationPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/CheckOutPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/BrowserSelector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/ShoppingCartPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/NoteBooksPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/ProductPage.java" />
-        <option value="$PROJECT_DIR$/src/test/Resources/Properties/TestDataConfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/ShoppinCartPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/LogInPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/ShoppingCartPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/CheckOutPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/RegistrationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObjectModel/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/JewelryPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjectModel/Utils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObjectModel/Results.java" />
       </list>
     </option>
   </component>
@@ -192,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,55 +240,32 @@
               <item name="pageObjectModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pageObjectModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pageObjectModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pageObjectModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pageObjectModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pageObjectModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pageObjectModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Properties" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547680818283" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547144816044" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -275,8 +284,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestSuit.userShouldBeAbleToSortByPriceHighToLow">
-    <configuration name="TestSuit" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestSuit.registeredUserShouldAbleToPurchaseAProduct">
+    <configuration name="TestSuit.registeredUserShouldAbleToPurchaseAProduct" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="pageObjectModel" />
       <extension name="coverage">
         <pattern>
@@ -286,42 +295,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="pageObjectModel" />
       <option name="MAIN_CLASS_NAME" value="pageObjectModel.TestSuit" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuit.userShouldBeAbleToSortByPriceHighToLow (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="pageObjectModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageObjectModel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageObjectModel" />
-      <option name="MAIN_CLASS_NAME" value="pageObjectModel.TestSuit" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToSortByPriceHighToLow" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuit.userShouldBeAbleToSortByPriceHighToLow (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="pageObjectModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageObjectModel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageObjectModel" />
-      <option name="MAIN_CLASS_NAME" value="pageObjectModel.TestSuit" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToSortByPriceHighToLow" />
+      <option name="METHOD_NAME" value="registeredUserShouldAbleToPurchaseAProduct" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -329,7 +303,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.userShouldBeAbleToSortByPriceHighToLow" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.registeredUserShouldBeAbleToSendEmailToFriend" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="pageObjectModel" />
       <extension name="coverage">
         <pattern>
@@ -339,7 +313,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="pageObjectModel" />
       <option name="MAIN_CLASS_NAME" value="pageObjectModel.TestSuit" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToSortByPriceHighToLow" />
+      <option name="METHOD_NAME" value="registeredUserShouldBeAbleToSendEmailToFriend" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.unregisteredUserShouldNotBeAbleToSendEmailToFriend" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageObjectModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageObjectModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageObjectModel" />
+      <option name="MAIN_CLASS_NAME" value="pageObjectModel.TestSuit" />
+      <option name="METHOD_NAME" value="unregisteredUserShouldNotBeAbleToSendEmailToFriend" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.userShouldBeRegisterSuccessfully" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pageObjectModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageObjectModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageObjectModel" />
+      <option name="MAIN_CLASS_NAME" value="pageObjectModel.TestSuit" />
+      <option name="METHOD_NAME" value="userShouldBeRegisterSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -366,19 +376,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.TestSuit.registeredUserShouldAbleToPurchaseAProduct" />
       <item itemvalue="TestNG.TestSuit.verifyAddToCartButtonIsPresentForAllProductsOnHomepage" />
-      <item itemvalue="TestNG.TestSuit" />
-      <item itemvalue="TestNG.TestSuit.userShouldBeAbleToSortByPriceHighToLow" />
-      <item itemvalue="TestNG.TestSuit.userShouldBeAbleToSortByPriceHighToLow (1)" />
-      <item itemvalue="TestNG.TestSuit.userShouldBeAbleToSortByPriceHighToLow (2)" />
+      <item itemvalue="TestNG.TestSuit.userShouldBeRegisterSuccessfully" />
+      <item itemvalue="TestNG.TestSuit.registeredUserShouldBeAbleToSendEmailToFriend" />
+      <item itemvalue="TestNG.TestSuit.unregisteredUserShouldNotBeAbleToSendEmailToFriend" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToSortByPriceHighToLow" />
-        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToSortByPriceHighToLow (1)" />
-        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToSortByPriceHighToLow (2)" />
-        <item itemvalue="TestNG.TestSuit" />
+        <item itemvalue="TestNG.TestSuit.registeredUserShouldAbleToPurchaseAProduct" />
+        <item itemvalue="TestNG.TestSuit.unregisteredUserShouldNotBeAbleToSendEmailToFriend" />
+        <item itemvalue="TestNG.TestSuit.registeredUserShouldBeAbleToSendEmailToFriend" />
         <item itemvalue="TestNG.TestSuit.verifyAddToCartButtonIsPresentForAllProductsOnHomepage" />
+        <item itemvalue="TestNG.TestSuit.userShouldBeRegisterSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -421,74 +431,46 @@
       <option name="project" value="LOCAL" />
       <updated>1547056619973</updated>
     </task>
-    <task id="LOCAL-00005" summary="first commit on crossbrowser baranch">
-      <created>1547660205261</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1547660205261</updated>
-    </task>
-    <task id="LOCAL-00006" summary="second commit on crossbrowser baranch">
-      <created>1547660248949</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1547660248949</updated>
-    </task>
-    <task id="LOCAL-00007" summary="third commit on crossbrowser baranch">
-      <created>1547677397833</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1547677397833</updated>
-    </task>
-    <task id="LOCAL-00008" summary="price high to low done">
-      <created>1547680879111</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1547680879111</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSuit_userShouldBeAbleToChangeCurrencyToEuroOnJewelryPage - 2019.01.16 at 23h 10m 47s.xml">
-      <configuration name="TestSuit.userShouldBeAbleToChangeCurrencyToEuroOnJewelryPage" configurationId="TestNG" />
+    <history-entry file="TestSuit_registeredUserShouldBeAbleToSendEmailToFriend - 2019.01.10 at 14h 30m 31s.xml">
+      <configuration name="TestSuit.registeredUserShouldBeAbleToSendEmailToFriend" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuit_verifyAddToCartButtonIsPresentForAllProductsOnHomepage - 2019.01.16 at 23h 10m 47s.xml">
-      <configuration name="TestSuit.verifyAddToCartButtonIsPresentForAllProductsOnHomepage" configurationId="TestNG" />
+    <history-entry file="TestSuit_registeredUserShouldBeAbleToSendEmailToFriend - 2019.01.10 at 14h 32m 20s.xml">
+      <configuration name="TestSuit.registeredUserShouldBeAbleToSendEmailToFriend" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuit_userShouldBeAbleToSortByPriceHighToLow_(1) - 2019.01.16 at 23h 10m 47s.xml">
-      <configuration name="TestSuit.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    <history-entry file="TestSuit_unregisteredUserShouldNotBeAbleToSendEmailToFriend - 2019.01.10 at 14h 36m 22s.xml">
+      <configuration name="TestSuit.unregisteredUserShouldNotBeAbleToSendEmailToFriend" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuit - 2019.01.16 at 23h 13m 23s.xml">
-      <configuration name="TestSuit" configurationId="TestNG" />
+    <history-entry file="TestSuit_registeredUserShouldAbleToPurchaseAProduct - 2019.01.10 at 18h 10m 16s.xml">
+      <configuration name="TestSuit.registeredUserShouldAbleToPurchaseAProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuit_userShouldBeAbleToSortByPriceHighToLow_(2) - 2019.01.16 at 23h 15m 17s.xml">
-      <configuration name="TestSuit.userShouldBeAbleToSortByPriceHighToLow (2)" configurationId="TestNG" />
+    <history-entry file="TestSuit_registeredUserShouldAbleToPurchaseAProduct - 2019.01.10 at 18h 11m 57s.xml">
+      <configuration name="TestSuit.registeredUserShouldAbleToPurchaseAProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuit_userShouldBeAbleToSortByPriceHighToLow_(2) - 2019.01.16 at 23h 15m 21s.xml">
-      <configuration name="TestSuit.userShouldBeAbleToSortByPriceHighToLow (2)" configurationId="TestNG" />
+    <history-entry file="TestSuit_registeredUserShouldAbleToPurchaseAProduct - 2019.01.10 at 18h 15m 43s.xml">
+      <configuration name="TestSuit.registeredUserShouldAbleToPurchaseAProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuit_userShouldBeAbleToSortByPriceHighToLow_(1) - 2019.01.16 at 23h 15m 53s.xml">
-      <configuration name="TestSuit.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    <history-entry file="TestSuit_registeredUserShouldAbleToPurchaseAProduct - 2019.01.10 at 18h 17m 12s.xml">
+      <configuration name="TestSuit.registeredUserShouldAbleToPurchaseAProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuit_userShouldBeAbleToSortByPriceHighToLow_(1) - 2019.01.16 at 23h 16m 43s.xml">
-      <configuration name="TestSuit.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    <history-entry file="TestSuit_registeredUserShouldAbleToPurchaseAProduct - 2019.01.10 at 18h 17m 52s.xml">
+      <configuration name="TestSuit.registeredUserShouldAbleToPurchaseAProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuit_userShouldBeAbleToSortByPriceHighToLow_(1) - 2019.01.16 at 23h 18m 00s.xml">
-      <configuration name="TestSuit.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    <history-entry file="TestSuit_registeredUserShouldAbleToPurchaseAProduct - 2019.01.10 at 18h 19m 41s.xml">
+      <configuration name="TestSuit.registeredUserShouldAbleToPurchaseAProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSuit_userShouldBeAbleToSortByPriceHighToLow - 2019.01.16 at 23h 19m 47s.xml">
-      <configuration name="TestSuit.userShouldBeAbleToSortByPriceHighToLow" configurationId="TestNG" />
+    <history-entry file="TestSuit_registeredUserShouldAbleToPurchaseAProduct - 2019.01.10 at 18h 20m 40s.xml">
+      <configuration name="TestSuit.registeredUserShouldAbleToPurchaseAProduct" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,8 +479,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16557378" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30983606" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.024590164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -515,6 +497,34 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17473525" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -524,28 +534,101 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
     <MESSAGE value="fourth commit" />
-    <MESSAGE value="first commit on crossbrowser baranch" />
-    <MESSAGE value="second commit on crossbrowser baranch" />
-    <MESSAGE value="third commit on crossbrowser baranch" />
-    <MESSAGE value="price high to low done" />
-    <option name="LAST_COMMIT_MESSAGE" value="price high to low done" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pageObjectModel/ProductPage.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="fourth commit" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/NoteBooksPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/C/AshaTesting/screenshot/userShouldBeRegisterSuccessfully.png" />
     <entry file="file://$PROJECT_DIR$/C/AshaTesting/screenshot/registeredUserShouldBeAbleToSendEmailToFriend.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/LogInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/RegistrationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="83" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/ProductPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="method#toSendEmailWithProduct#0;class#ProductPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/ShoppingCartPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/CheckOutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1775">
+          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#clearAndEnter#0;class#Utils#0" />
+            <element signature="method#selectByVisibleText#0;class#Utils#0" />
+            <element signature="method#getText#0;class#Utils#0" />
+            <element signature="method#getTextFromBox#0;class#Utils#0" />
+            <element signature="method#timeStamp#0;class#Utils#0" />
+            <element signature="method#waitAndClick#0;class#Utils#0" />
+            <element signature="method#waitForElementToBeInvisible#0;class#Utils#0" />
+            <element signature="method#waitForElementToBeVisible#0;class#Utils#0" />
+            <element signature="method#waitForElementToBeClickable#0;class#Utils#0" />
+            <element signature="method#hoverAndClick#0;class#Utils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/JewelryPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -553,287 +636,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/userShouldBeRegisterSuccessfully.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/homepage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/LogInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="method#toLogIn#0;class#LogInPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/RegistrationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/LoadProp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#LoadProp#0;class#LoadProp#0" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/userShouldBeAbleToChangeCurrencyToEuroOnJewelryPage.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/browser.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/browser16161545.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/browser16161812.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/BrowserSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="454" selection-start-line="454" selection-end-line="454" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/By.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="347" selection-start-line="347" selection-end-line="347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/collect/CollectPreconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/base/Preconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="1394" selection-start-line="1394" selection-end-line="1394" />
-          <folding>
-            <element signature="e#48265#48266#0" expanded="true" />
-            <element signature="e#48322#48323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/collect/RegularImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/collect/ImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="353" selection-start-line="353" selection-end-line="353" />
-          <folding>
-            <element signature="e#11393#11394#0" expanded="true" />
-            <element signature="e#11431#11432#0" expanded="true" />
-            <element signature="e#15252#15253#0" expanded="true" />
-            <element signature="e#15297#15298#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/verifyAddToCartButtonIsPresentForAllProductsOnHomepage.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/registeredUserShouldAbleToPurchaseAProduct.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/Results.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+        <state relative-caret-position="311">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/browser16161940.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/browser16210252.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/browser16205802.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshots/browser16210401.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/ProductPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#toSendEmailWithProduct#0;class#ProductPage#0" />
-            <element signature="method#addFirstComputerProductToCart#0;class#ProductPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Resources/Properties/TestDataConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2725">
-          <caret line="245" column="4" selection-start-line="245" selection-start-column="4" selection-end-line="245" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#clearAndEnter#0;class#Utils#0" />
-            <element signature="method#toScroll#0;class#Utils#0" />
-            <element signature="method#toScrollAndClick#0;class#Utils#0" />
-            <element signature="method#selectByVisibleText#0;class#Utils#0" />
-            <element signature="method#getValueOfFirstSelectedFromDropDown#0;class#Utils#0" />
-            <element signature="method#selectByVisibleNumber#0;class#Utils#0" />
-            <element signature="method#getText#0;class#Utils#0" />
-            <element signature="method#getCssProperty#0;class#Utils#0" />
-            <element signature="method#getTextFromBox#0;class#Utils#0" />
-            <element signature="method#longTimeStamp#0;class#Utils#0" />
-            <element signature="method#shortTimeStamp#0;class#Utils#0" />
-            <element signature="method#waitAndClick#0;class#Utils#0" />
-            <element signature="method#retryAndClickAgain#0;class#Utils#0" />
-            <element signature="method#isDropDown#0;class#Utils#0" />
-            <element signature="method#waitForElement#0;class#Utils#0" />
-            <element signature="method#waitForElementToBeInvisible#0;class#Utils#0" />
-            <element signature="method#waitForElementToBeVisible#0;class#Utils#0" />
-            <element signature="method#waitForLocatorToBeClickable#0;class#Utils#0" />
-            <element signature="method#waitForElementToBeClickable#0;class#Utils#0" />
-            <element signature="method#elementIsDisplayed#0;class#Utils#0" />
-            <element signature="method#elementIsPresent#0;class#Utils#0" />
-            <element signature="method#hoverAndClick#0;class#Utils#0" />
-            <element signature="method#waitForTextToBePresent#0;class#Utils#0" />
-            <element signature="method#isAlertPresent#0;class#Utils#0" />
-            <element signature="method#browserScreenshot#0;class#Utils#0" />
-            <element signature="method#fullPageScreenShot#0;class#Utils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/ShoppingCartPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-          <folding>
-            <element signature="method#clickOnCheckOut#0;class#ShoppingCartPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#changeCurrencyToEuro#0;class#HomePage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjectModel/CheckOutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObjectModel/TestSuit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        <state relative-caret-position="441">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#userShouldBeRegisterSuccessfully#0;class#TestSuit#0" />
             <element signature="method#registeredUserShouldBeAbleToSendEmailToFriend#0;class#TestSuit#0" />
             <element signature="method#unregisteredUserShouldNotBeAbleToSendEmailToFriend#0;class#TestSuit#0" />
             <element signature="method#userShouldBeAbleToSortByPriceHighToLow#0;class#TestSuit#0" />
-            <element signature="method#registeredUserShouldAbleToPurchaseAProduct#0;class#TestSuit#0" />
             <element signature="method#userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions#0;class#TestSuit#0" />
             <element signature="method#verifyAddToCartButtonIsPresentForAllProductsOnHomepage#0;class#TestSuit#0" />
-            <element signature="method#userShouldBeAbleToChangeCurrencyToEuroOnJewelryPage#0;class#TestSuit#0" />
             <element signature="method#userShouldBeAbleYoChangeCurrencyToUSDollarOnJewelryPage#0;class#TestSuit#0" />
           </folding>
         </state>
